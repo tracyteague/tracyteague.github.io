@@ -19,11 +19,17 @@ li {
     display: inline;
 }
 
+nav {
+  background: blue;
+  color: white;
+  text-align: center;
+}
+
 .header-pic-tracy {
   width: 100px;
   border-radius: 50%;
   position: relative;
-  margin-left: 50%;
+  margin-left: 45%;
   margin-top: 5%;
   border: 2px solid black;
 }
@@ -54,6 +60,6 @@ li {
 }
 
 .projects-item {
-  width: 50%;
+  width: 25%;
   display: inline-block;
 }
