@@ -1,9 +1,13 @@
+html {
+  font-family: 'Slabo 27px', serif;
+}
+
 section {
   margin: 5%;
 }
 
 header {
-  background: url("../images/IMG_3723.jpg") no-repeat center center fixed;
+  background: url("../images/nycskyline.jpg") no-repeat center center fixed;
   width: auto;
   height: 100%;
   border-bottom: 5px solid yellow;
