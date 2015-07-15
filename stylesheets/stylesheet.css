@@ -1,6 +1,6 @@
 html {
   font-family: 'Slabo 27px', serif;
-
+  background-color: #F7F7FF;
 }
 
 section {
@@ -42,10 +42,6 @@ i {
   color: #406E8E;
 }
 
-.fa {
-  text-align: center;
-}
-
 hr {
     display: block;
     height: 1px;
@@ -56,7 +52,7 @@ hr {
     padding: 0;
 }
 
-h2 {
+h1 {
   color: #406E8E;
 }
 
