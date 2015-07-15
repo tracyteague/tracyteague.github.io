@@ -2,6 +2,8 @@
 <html>
 
   <head>
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
     <!-- Custom CSS -->
     <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css">
     <meta charset="UTF-8"/>
@@ -9,15 +11,43 @@
   </head>
 
   <body>
+
     <header>
+      <nav>
+        <ul class="nav-bar">
+          <li class="nav-item"><a href="#about" class="section-link">About</a></li>
+          <li class="nav-item"><a href="#projects" class="section-link">Projects</a></li>
+          <li class="nav-item"><a href="#contact" class="section-link">Contact</a></li>
+        </ul>
+      </nav>
       <img class="header-pic-tracy" src="images/tracy.jpg" alt="Tracy">
       <h4 class="header-name">Tracy Teague</h4>
-      <ul class="header-socialmedia">
+<!--       <ul class="header-socialmedia">
         <li>FB</li>
         <li>LinkedIn</li>
         <li>Github</li>
         <li>Google+</li>
-      </ul>
+      </ul> -->
+      <span class="fa-stack fa-lg">
+        <i class="fa fa-square-o fa-stack-2x"></i>
+        <i class="fa fa-twitter fa-stack-1x"></i>
+      </span>
+      fa-twitter on fa-square-o<br>
+      <span class="fa-stack fa-lg">
+        <i class="fa fa-circle fa-stack-2x"></i>
+        <i class="fa fa-flag fa-stack-1x fa-inverse"></i>
+      </span>
+      fa-flag on fa-circle<br>
+      <span class="fa-stack fa-lg">
+        <i class="fa fa-square fa-stack-2x"></i>
+        <i class="fa fa-terminal fa-stack-1x fa-inverse"></i>
+      </span>
+      fa-terminal on fa-square<br>
+      <span class="fa-stack fa-lg">
+        <i class="fa fa-camera fa-stack-1x"></i>
+        <i class="fa fa-ban fa-stack-2x text-danger"></i>
+      </span>
+      fa-ban on fa-camera
       <h1 class="header-text">Full-Stack Web Developer.</h1>
       <ul class="header-skill-list">
         <li class="header-skill">Ruby</li>
@@ -28,47 +58,52 @@
         <li class="header-skill">Sinatra</li>
         <li class="header-skill">JQuery/AJAX</li>
         <li class="header-skill">Bootstrap</li>
+        <li class="header-skill">APIs</li>
       </ul>
     </header>
 
-    <nav>
-      <ul class="nav-bar">
-        <li class="nav-item">About</li>
-        <li class="nav-item">Projects</li>
-        <li class="nav-item">Contact</li>
-      </ul>
-    </nav>
-
     <section id="about-me">
-      <h4>About Me</h4>
-      <p>I'm an enthusiastic and driven full-stack web developer who not only seeks to utilize and strengthen my primary skills, but strives to continually learn in exploring languages, frameworks, and new web and mobile technologies. Additionally, I'm a world-traveler who has lived in and explored the United States, Italy and Australia; a foodie who loves to cook and bake new recipes in addition to trying out new restaurants and cuisines; an empathic and understanding individual, with a passion for psychology, health and wellness; and a team player, known for promoting and maintaining a calm, optimistic attitude and a collaborative atmosphere in a team. </p>
+      <h2 class="section-header" id="about">About Me</h2>
+      <p>I'm an enthusiastic and driven full-stack web developer who not only seeks to utilize and strengthen my primary skills, but strives to continually learn in exploring languages, frameworks, and new web and mobile technologies. Additionally, I'm a world-traveler who has lived in and explored the United States, Italy and Australia; a foodie who loves to cook and bake new recipes in addition to trying out new restaurants and cuisines; an empathic and understanding individual, with a passion for psychology, open communication, and health and wellness; and a team player, known for promoting and maintaining a calm, optimistic attitude and a collaborative atmosphere in a group development process. </p>
     </section>
 
+    <hr>
+
     <section id="projects">
-      <h2>Projects</h2>
-      <table class="projects-list">
+      <h2 class="section-header">Projects</h2>
+        <table class="projects-list">
         <!-- Have each item in rectangular box with picture. When hovered, should display item name. Write description below of project as well as what type (e.g., Final Project, Group Project, Solo Assessment, Freelance Project) -->
         <!-- TODO: ADD HOADINI LINK WHEN WORKING-->
         <tr>
-          <td class="projects-item"><a href="https://github.com/tracyteague/hoadini">Hoadini</a></td>
-          <td>DBC Final Project</td>
-          <td>Web application that provides recommendations for individuals searching for temporary-housing based on their specified preferences (e.g., proximity to public transportation, restaurants, landmarks, etc.).</td>
+          <td class="projects-item"><a href="https://github.com/tracyteague/hoadini"><img class="projects-img" src="images/hoadini.png" alt="hoadini"></a></td>
+          <td>
+            <h3>Hoadini</h3>
+            <h4>DBC Final Project</h4>
+              <p>Web application that provides recommendations for individuals searching for temporary-housing based on their specified preferences (e.g., proximity to public transportation, restaurants, landmarks, etc.).</p>
+          </td>
         </tr>
         <tr>
-          <td class="projects-item"><a href="https://github.com/tracyteague/airtimeMG">AirtimeMG</a></td>
-          <td>Freelance Project</td>
-          <td>Web application designed per MVP requirements for Airtime Media Group, a YouTube network with the focus to help partners gain exposure and viewership along with business and marketing deals.</td>
+          <td class="projects-item"><a href="https://github.com/tracyteague/airtimeMG"><img class="projects-img" src="images/airtimemg.png" alt="airtimemg"></a></td>
+          <td>
+            <h3>AirtimeMG</h3>
+            <h4>Freelance Project</h4>
+            <p>Web application designed per requirements for Airtime Media Group, a YouTube network with the focus to help partners gain exposure and viewership along with business and marketing deals.</p>
         </tr>
         <tr>
-          <td class="projects-item"><a href="https://github.com/tracyteague/NokCupid">NOkCupid</a></td>
-          <td>DBC Group Project</td>
-          <td>Web application that generates dating "mismatches" with the notion that "opposites attract" based on users designated "likes" and "dislikes". </td>
+          <td class="projects-item"><a href="https://github.com/tracyteague/NokCupid"><img class="projects-img" src="images/nokcupid.png" alt="nokcupid"></a></td>
+          <td>
+            <h3>NOkCupid</h3>
+            <h4>DBC Group Project</h4>
+            <p>DBC Group Project: Web application that generates dating "mismatches" with the notion that "opposites attract" based on users designated "likes" and "dislikes".</p>
+          </td>
         </tr>
       </table>
     </section>
 
+    <hr>
+
     <section id="contact">
-      <h2>Let's Connect!</h2>
+      <h2 class="section-header">Contact Me</h2>
         <ul>
           <li>GMail</li>
           <li>Google+</li>
@@ -77,6 +112,8 @@
           <li>Facebook</li>
         </ul>
     </section>
+
+    <hr>
 
     <footer>
       <p>Copyright Tracy Teague 2015</p>
