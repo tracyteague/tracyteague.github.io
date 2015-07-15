@@ -1,7 +1,12 @@
+section {
+  margin: 5%;
+}
+
 header {
   background: url("../images/IMG_3723.jpg") no-repeat center center fixed;
-  width: 100%;
+  width: auto;
   height: 100%;
+  border-bottom: 5px solid yellow;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -12,7 +17,7 @@ header {
 ul {
   list-style-type: none;
   margin: 0;
-  padding: 0;
+  padding: 5px;
 }
 
 li {
@@ -20,9 +25,18 @@ li {
 }
 
 nav {
-  background: blue;
+  background: transparent;
   color: white;
-  text-align: center;
+  text-align: right;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
 }
 
 .header-pic-tracy {
@@ -59,7 +73,39 @@ nav {
   color: white;
 }
 
-.projects-item {
-  width: 25%;
+.nav-item {
+  text-transform: uppercase;
+  padding: 1%;
+  font-weight: bolder;
+}
+
+.projects-img {
+  width: 60%;
+  height: auto;
+  border-radius: 20%;
+  border: 3px black solid;
   display: inline-block;
+}
+
+.projects-item {
+  display: inline-block;
+  margin-left: 20%;
+}
+
+.section-header {
+  text-align: center;
+  text-transform: uppercase;
+}
+
+a.section-link {
+  color: black;
+  text-decoration: none;
+}
+
+a.section-link:visited {
+  color: yellow;
+}
+
+a.section-link:hover {
+  color: red;
 }
