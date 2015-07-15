@@ -38,6 +38,14 @@ nav {
   text-align: right;
 }
 
+i {
+  color: white;
+}
+
+.fa {
+  text-align: center;
+}
+
 hr {
     display: block;
     height: 1px;
