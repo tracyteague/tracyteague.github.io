@@ -45,6 +45,10 @@ i {
   color: #406E8E;
 }
 
+i:hover {
+  color: #87BCDE;
+}
+
 hr {
     display: block;
     height: 1px;
