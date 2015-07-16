@@ -63,6 +63,10 @@ h4 {
   color: #406E8E;
 }
 
+form {
+  text-align: center;
+}
+
 .footer-text {
   text-align: center;
   font-size: 14px;
@@ -76,10 +80,16 @@ h4 {
 .contact-me-text {
   font-style: italic;
   font-size: 16px;
+  text-align: center;
 }
 
-.social-media-buttons {
-/*  text-align: center;*/
+.social-media-icons-list {
+  text-align: center;
+}
+
+.social-media-icons {
+  padding-left: 2%;
+  padding-right: 2%;
 }
 
 .header-name {
