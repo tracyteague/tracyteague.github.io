@@ -1,191 +1,49 @@
 html {
-  font-family: 'Lato', sans-serif;
-  background-color: #F4F9F9;
-}
-
-section {
-  margin: 5%;
-}
-
-nav {
-  background: transparent;
-  color: #F4F9F9;
-  text-align: right;
-}
-
-header {
-  background: url("../images/nycskyline.jpg") no-repeat center center fixed;
+  font-family: 'Indie Flower', sans-serif;
+  background: url("../images/leavenothingbutfeetsign.jpg") no-repeat center center fixed;
   width: auto;
   height: 100%;
   margin: -10px;
-  border-bottom: 5px solid black;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
 }
 
+body {
+  margin: 5%;
+}
+
 p {
-  color: #5E6060;
-  font-size: 20px;
-}
-
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 5px;
-}
-
-li {
-    display: inline;
-}
-
-
-i {
-  color: #406E8E;
-}
-
-i:hover {
-  color: #87BCDE;
-}
-
-hr {
-    display: block;
-    height: 1px;
-    border: 0;
-    border-top: 1px solid #ccc;
-    margin-left: 10%;
-    margin-right: 10%;
-    padding: 0;
-}
-
-h1 {
-  font-family: 'Montserrat', sans-serif;
-  color: #406E8E;
-}
-
-h4 {
-  font-family: 'Montserrat', sans-serif;
-  color: #406E8E;
-}
-
-form {
-  text-align: center;
+  color: #0A2239;
+  font-size: 30px;
+  letter-spacing: 2px;
 }
 
 a {
-  color: black;
-  font-weight: bolder;
   text-decoration: none;
+  color: #0A2239;
+  font-style: italic;
 }
 
 a:hover {
-  color: #87BCDE;
-}
-
-a.section-link {
-  font-size: 20px;
-  color: black;
-  font-weight: bolder;
-  text-decoration: none;
-}
-
-a.section-link:hover {
-  color: #87BCDE;
+  color: #FF6663;
+  font-size: 55px;
 }
 
 #about-me {
   text-align: center;
-}
-
-.contact-me-text {
-  font-style: italic;
-  font-size: 16px;
-  text-align: center;
+  margin: 5%;
 }
 
 .footer-text {
   text-align: center;
-  font-size: 14px;
-  color: #406E8E;
+  font-size: 50px;
 }
 
 .header-name {
-  font-family: 'Montserrat', sans-serif;
-  text-align: center;
-  color: #87BCDE;
-  font-size: 100px;
-  padding-top: 8%;
-}
-
-.header-skill {
-  border: 1px solid #5E6060;
-  background-color: #87BCDE;
-  padding: 1%;
-}
-
-.header-skill-list {
-  text-align: center;
-  color: black;
-  padding: 2%;
-}
-
-.header-socialmedia {
-  text-align: center;
-  color: #F4F9F9;
-}
-
-.header-text {
-  font-family: 'Montserrat', sans-serif;
-  text-align: center;
-  color: #F4F9F9;
-  text-transform: uppercase;
-  font-size: 60px;
-}
-
-.nav-item {
-  text-transform: uppercase;
-  padding: 3%;
-  font-weight: bolder;
-}
-
-.projects-img {
-  width: 80%;
-  height: auto;
-  margin-top: 10%;
-  border-radius: 10%;
-  border: 3px black solid;
-  display: inline-block;
-}
-
-.projects-item {
-  display: inline-block;
-  margin-left: 20%;
-}
-
-.projects-title {
-  text-decoration: none;
-}
-
-.section-header {
-  text-align: center;
-  text-transform: uppercase;
-}
-
-.social-media-icons-list {
-  text-align: center;
-}
-
-.social-media-icons {
-  padding-left: 2%;
-  padding-right: 2%;
-}
-
-#tracy-pic {
-  border-radius: 50%;
-  width: 20%;
-  height: auto;
-  border: 3px solid black;
-  position: right;
-  display: inline-block;
+  color: #29335C;
+  font-size: 70px;
+  margin: 5%;
+  letter-spacing: 2px;
 }
