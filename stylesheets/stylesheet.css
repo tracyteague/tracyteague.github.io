@@ -16,7 +16,7 @@ body {
 
 p {
   color: #0A2239;
-  font-size: 30px;
+  font-size: 50px;
   letter-spacing: 2px;
 }
 
@@ -28,7 +28,7 @@ a {
 
 a:hover {
   color: #FF6663;
-  font-size: 55px;
+  font-size: 70px;
 }
 
 #about-me {
@@ -38,12 +38,12 @@ a:hover {
 
 .footer-text {
   text-align: center;
-  font-size: 50px;
+  font-size: 65px;
 }
 
 .header-name {
   color: #29335C;
-  font-size: 70px;
+  font-size: 80px;
   margin: 5%;
   letter-spacing: 2px;
 }
