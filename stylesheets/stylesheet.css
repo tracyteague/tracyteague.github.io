@@ -1,49 +1,50 @@
 html {
-  font-family: 'Indie Flower', sans-serif;
-  background: url("../images/leavenothingbutfeetsign.jpg") no-repeat center center fixed;
-  width: auto;
-  height: 100%;
-  margin: -10px;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+  font-family: 'Slabo 27px', sans-serif;
+  background: #FFFBFC;
 }
 
 body {
-  margin: 5%;
+  margin: 10%;
 }
 
 p {
-  color: #0A2239;
-  font-size: 50px;
+  color: #0B132B;
+  font-size: 20px;
   letter-spacing: 2px;
 }
 
 a {
   text-decoration: none;
-  color: #0A2239;
-  font-style: italic;
+  color: #8DA9C4;
 }
 
 a:hover {
   color: #FF6663;
-  font-size: 70px;
+  font-size: 20px;
+  font-weight: bolder;
 }
 
 #about-me {
-  text-align: center;
-  margin: 5%;
-}
 
+}
+/*
 .footer-text {
   text-align: center;
   font-size: 65px;
+}*/
+
+.phonetic-i {
+  font-size: 18px;
 }
 
 .header-name {
-  color: #29335C;
-  font-size: 80px;
-  margin: 5%;
+  color: #6D98BA;
+  font-size: 60px;
   letter-spacing: 2px;
+  margin-bottom: 0px;
+}
+
+#synonyms p {
+  font-style: italic;
+  color: #9EA3B0;
 }
