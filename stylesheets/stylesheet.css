@@ -3,8 +3,25 @@ html {
   background: #FFFBFC;
 }
 
+a {
+  text-decoration: none;
+  color: #8DA9C4;
+}
+
+a:hover {
+  color: #FF6663;
+  font-weight: bolder;
+}
+
 body {
   margin: 10%;
+}
+
+.header-name {
+  color: #6D98BA;
+  font-size: 60px;
+  letter-spacing: 2px;
+  margin-bottom: 0px;
 }
 
 p {
@@ -13,35 +30,8 @@ p {
   letter-spacing: 2px;
 }
 
-a {
-  text-decoration: none;
-  color: #8DA9C4;
-}
-
-a:hover {
-  color: #FF6663;
-  font-size: 20px;
-  font-weight: bolder;
-}
-
-#about-me {
-
-}
-/*
-.footer-text {
-  text-align: center;
-  font-size: 65px;
-}*/
-
 .phonetic-i {
   font-size: 18px;
-}
-
-.header-name {
-  color: #6D98BA;
-  font-size: 60px;
-  letter-spacing: 2px;
-  margin-bottom: 0px;
 }
 
 #synonyms p {
