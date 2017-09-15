@@ -6,35 +6,35 @@ html {
 a {
   text-decoration: none;
   color: #8DA9C4;
+  font-weight: 900;
 }
 
 a:hover {
   color: #FF6663;
-  font-weight: bolder;
 }
 
 body {
-  margin: 10%;
+  margin: 15%;
 }
 
 .header-name {
   color: #6D98BA;
-  font-size: 60px;
-  letter-spacing: 2px;
+  font-size: 5em;
+  letter-spacing: .1em;
   margin-bottom: 0px;
+  margin-top: 0px;
 }
 
 p {
   color: #0B132B;
-  font-size: 20px;
-  letter-spacing: 2px;
+  font-size: 1.7em;
+  letter-spacing: .1em;
 }
 
 .phonetic-i {
-  font-size: 18px;
+  font-size: .76em;
 }
 
 #synonyms p {
   font-style: italic;
-  color: #9EA3B0;
 }
